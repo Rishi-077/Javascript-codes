@@ -1,0 +1,58 @@
+.winner {
+    color: green;
+}
+.loser{
+    color: red;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.h2 {
+    padding-left: 10px;
+    color: #05445E;
+}
+.card-text{
+    color: #050A30;
+    font-size: 20px;
+}
+.input-group-text{
+    color: #050A30;
+    background-color: #75E6DA;
+    border-radius: 20px;
+}
+
+.custom-select{
+    border-radius: 20px; 
+}
+
+#player1 {
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+}
+#player2 {
+    border: 3px solid black;
+    border-radius: 20px;
+    color:white;
+}
+#reset {
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+}
+
+
+@media screen and (min-width:767px) {
+    .container{
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
